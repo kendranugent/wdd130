@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #6279b8   ;
   --secondary-color: #4c9f70 ;
   --accent1-color: #49516f;
-  --accent2-color: white;
+  --accent2-color: #496F5D;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
@@ -22,7 +22,7 @@ Fonts are separated by a & */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #6279b8  ;
   --nav-link-color: #6279b8;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #4C9F70;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #6279b8;
 }
