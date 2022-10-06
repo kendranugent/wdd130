@@ -1,0 +1,44 @@
+body{
+    text-align:center;
+    background-color:pink;
+}
+/* Header */
+h1{
+    margin: 40px;
+    color:white;
+    padding: 20px;
+}
+h1:hover {
+    color:black;
+}
+
+/* Main */
+main{
+    margin: 40px;
+    color:white;
+    padding: 20px;
+}
+
+img{
+    width: 30%;
+}
+
+header, main, footer{
+    width:30%;
+    margin: 0 auto;
+}
+
+ol{
+    text-align:left;
+    color:black;
+}
+
+.state{
+    color:white;
+    font-size: 3em;
+}
+
+/* Footer */
+footer{
+    font-size: .75em;
+}

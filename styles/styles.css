@@ -1,17 +1,51 @@
+
+body {
+    text-align: center;
+}
+
+/* Header */
+nav{
+    padding: 20px;
+    text-align: center;
+}
+nav,footer{
+    background-color:steelblue;
+}
+a { 
+    margin: 40px;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+/*Main*/
+h1{
+    color:steelblue;
+    text-align: center;
+    margin-top: 60px
+}
+img{
+    width: 80%;
+    border: 4px solid steelblue;
+}
+#active, a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
 .para {
     font-size: 1.5em;
     line-height: 1.5em;
-}
-
-a { 
-    background-color: steelblue;
-    font-size: 1.5em;
-    color: white;
     padding: 10px;
-    text-decoration: none;
+    width: 80%;
+    margin: 20px auto;
 }
-
-#active {
-    background-color: white;
-    color: steelblue;
+p{
+    text-align: center;
+}
+/*Footer*/
+footer p {
+    font-size: 1.25em;
+    color: white;
+    padding: 20px;
 }
