@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width:100%;
+    margin: 0;
+    height: 100%;
+}
+
+.circle{
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid black;
+    margin: 50px;
+}
+
+div{
+    text-align: center;
+    /* width: 80%; */
+
+}
+
+main{
+    /* display: block; */
+    background-color: gray;
+    margin-top:-5px;
+
+}
