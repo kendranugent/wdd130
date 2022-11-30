@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@300;700&family=Josefin+Sans:wght@100;300;400&family=Quicksand:wght@300;400;500&display=swap');
+/* header */
+
+a{
+    text-decoration: none;
+    color: black;
+}
 
 .logo{
-    width:70px;
+    width:90px;
 }
 
 #logo_link{
@@ -10,14 +17,14 @@
 }
 
 header{
-    background-color: #4c9f70;
+    background-color: #71a8b5;
     font-family: 'dosis';
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns:150px auto;
 }
 
 nav a:hover{
-    background-color: #496F5D; 
+    background-color: #208aae; 
 
 }
 
@@ -33,10 +40,19 @@ nav {
     justify-content: space-around;
 }
 
+/* hero */
 #hero{
     display:grid;
     grid-template-columns: 1fr;
     margin: 20px;
+}
+
+.hero-text{
+    margin: 0 auto;
+    font-size: 80px;
+    margin-bottom: 100px;
+    font-family: 'quicksand';
+    color: #17567c
 }
 
 #hero-box{
@@ -46,37 +62,78 @@ nav {
 }
 
 #hero-img{
-    width: 100%
+    width: 100%;
+    margin-bottom: 150px;
 }
 
+/* main body */
 .home-grid{
     display:grid;
-    grid-template-columns: repeat (9, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     font-family: 'dosis';
     color: #6279b8;
     font-size: 1.5em;
-    margin-top: 200px;
+    text-align: center;
 }
  .card-img{
     width:300px;
  }
 
 .two-card{
-    grid-column: 3/5;
+    grid-column: 3/4;
     grid-row: 2/3;
 }
 
 .three-card{
-    grid-column: 6/8;
+    grid-column: 7/8;
     grid-row: 2/3;
 }
 
-.about-me-img{
-    width: 100px;
+/* about me */
+.about-me{
+    margin-top: 100px;
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 70px;
 }
 
+#about-me-img{
+    width: 400px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: 20px;
+}
+
+.button-box{
+    background-color: #208aae; 
+    color: black;
+    font-family: 'quicksand';
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    grid-row: 2/3;
+    margin-bottom: 10px;
+}
+
+.button-box:hover{
+    background-color: #71a8b5;
+    color: black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#about-me-text{
+    grid-column: 2/3;
+    font-size: 45px;
+    font-family: 'dosis';
+    margin-left: 20px;
+}
+
+/* footer */
 footer{
-    background-color: #4c9f70;
+    background-color: #71a8b5;
     color: white;
     padding: 25px 50px;
     margin-top: 200px;
