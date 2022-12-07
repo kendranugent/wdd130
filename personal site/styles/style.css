@@ -266,3 +266,11 @@ footer .social img{
     font-size: 35px;
     color:#17567c;
   }
+
+  #paragraph-text2{
+    grid-column: 3/5;
+    font-family: "Josefin Sans";
+    font-weight: 800;
+    font-size: 30px;
+    color:#17567c;
+  }
