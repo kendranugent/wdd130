@@ -76,6 +76,7 @@ nav {
 }
  .card-img{
     width:300px;
+    margin-bottom: 10px;
  }
 
 .two-card{
@@ -103,7 +104,7 @@ nav {
     margin-bottom: 20px;
 }
 
-.button-box{
+#button-text{
     background-color: #208aae; 
     color: white;
     font-family: 'quicksand';
@@ -117,14 +118,15 @@ nav {
     text-align: center;
 }
 
-.button-box:hover{
+#button-text:hover{
     background-color: #71a8b5;
     margin: 0 auto;
     margin-bottom: 10px;
 }
 
-#button{
+.button{
   color: white;
+  text-align: center;
 }
 
 #about-me-text{
