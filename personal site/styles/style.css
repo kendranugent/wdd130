@@ -174,11 +174,12 @@ footer p {
 
 /* page 2 */
 
-.pg2-head{
+.pg-head{
     text-align: center;
     font-family: "quicksand";
     font-size: 50px;
     color:#17567c;
+    padding: 50px;
 }
 
 * {box-sizing: border-box}
