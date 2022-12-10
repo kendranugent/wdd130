@@ -79,12 +79,12 @@ nav {
     margin-bottom: 10px;
  }
 
-.two-card{
+#two-card{
     grid-column: 3/4;
     grid-row: 2/3;
 }
 
-.three-card{
+#three-card{
     grid-column: 7/8;
     grid-row: 2/3;
 }
@@ -104,7 +104,7 @@ nav {
     margin-bottom: 20px;
 }
 
-#button-text{
+.button-text{
     background-color: #208aae; 
     color: white;
     font-family: 'quicksand';
@@ -118,7 +118,7 @@ nav {
     text-align: center;
 }
 
-#button-text:hover{
+.button-text:hover{
     background-color: #71a8b5;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -163,14 +163,10 @@ footer p {
   margin-left: 20px;
 }
 
-#social_link{
+.social_link{
   padding-top: 5px;
   justify-self: center;
   align-self: center;
-}
-
-.social a:hover{
-  background-color: none;
 }
 
 
@@ -259,8 +255,6 @@ footer p {
   .page-text{
     margin:200px;
     margin-bottom: 200px;
-    margin-right:1fr;
-    margin-left: 1fr;
     display:flex;
   }
 
